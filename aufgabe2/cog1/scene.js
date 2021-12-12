@@ -11,9 +11,9 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 	// Variables with initialization parameters.
 	//
 	// Fill or stroke polygon.
-	var fill = true;
+	var fill = false;
 	// Display normals for debug.
-	var displayNormals = false;
+	var displayNormals = true;
 	var defaultNormalLength = 50;
 	// Display edges together with normals as default.
 	var displayEdges = false;
@@ -21,7 +21,7 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 	var lineColor3DName = "black";
 	var lineColor3D;
 	// Display the z-buffer instead of the frame-buffer.
-	var debug_zBuffer = false;
+	var debug_zBuffer = true;
 	// Display model-view and perspective matrices
 	// for the interactive node on the canvas.
 	var displayMatrices = true;
