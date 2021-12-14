@@ -600,7 +600,7 @@ define(["exports", "shader", "framebuffer", "data", "glMatrix"], //
 			}
 
 			// START exercise Z-Buffer
-
+			inverseC = 1 / C;
 			// Project first vertex (could be any) on normal.
 			// The result is the distance D of polygon plane to origin.
 			// AdivC = A / C;
